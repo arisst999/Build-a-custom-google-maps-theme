@@ -1,0 +1,32 @@
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #8B4513;  /* A deeper brown color for a rustic feel */
+    padding: 20px;
+    border: 3px solid #3E2723; /* Darker brown border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow for depth */
+    background-image: url('https://example.com/map_texture.jpg'); /* Optional texture for authenticity */
+    background-size: cover; /* Ensures the background image covers the entire div */
+    background-position: center;
+    border-radius: 8px; /* Rounded corners for a more authentic map feel */
+}
+
+.header h1 {
+    color: #FFD700;  /* Golden yellow for the old Western map text */
+    font-size: 60px;
+    font-family: 'Georgia', serif;  /* Serif font for that old-timey look */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow to enhance text visibility */
+    letter-spacing: 2px; /* Slightly spaced letters to match Western style */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+body {
+    background-color: rgb(38, 94, 16);  /* Earthy green for nature vibes */
+    background-size: cover; /* Ensures the texture covers the entire screen */
+    background-position: center; /* Centers the texture */
+    background-attachment: fixed; /* Keeps the texture in place when scrolling */
+    color: #FFF; /* Ensures text is visible on a darker background */
+    font-family: 'Georgia', serif; /* Consistent font style for a Western feel */
+}
