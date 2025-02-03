@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const map = new google.maps.Map(mapElement, {
             center: { lat: 38.0236514643697, lng: 23.870650832928252 }, // Map center
             zoom: 10,
-            mapId: "c4f19c67d60c51e6",
+            mapId: "YOUR_MAP_ID",
         });
 
         // Custom marker icon (local file)
