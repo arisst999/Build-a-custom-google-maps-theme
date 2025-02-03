@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add a Map with Markers using HTML</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 
+    <!-- Google Maps API with Web Components -->
     <script
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_PUBLIC_KEY&libraries=maps,marker&v=beta"
-    defer
-    >   
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=maps,marker&v=beta"
+        defer>
     </script>
 
 </head>
 <body>
     <div class="header">
-    <h1>Let's go to Red Dead world</h1>
+        <h1>Let's go to Red Dead world</h1>
     </div>
 
-    <gmp-map center="37.98518481729825, 23.720057943743175"
+    <!-- Google Map -->
+    <gmp-map center="38.0236514643697, 23.870650832928252"
      zoom="10"
-      map-id="YOUR_CUSTOME_MAP_ID" 
-      style="height: 800px">
+     map-id="YOUR_MAP_ID" 
+     style="height: 800px; width: 100%;">
     </gmp-map>
 
-
-
-    <script src="/script.js"></script>
+    <!-- Load the script for markers -->
+    <script src="/Build-a-custom-google-maps-theme-main/script.js"></script>
 
 </body>
 </html>
